@@ -1,0 +1,60 @@
+p {
+  border: 3px solid black;
+  padding: 5px;
+  background-color: rgb(117 190 218 / 50%); /* 50% transparent */
+}
+
+img {
+  border: 5px solid #54a7ce;
+}
+
+
+/*headings */
+h1 {
+    font-size: 40px;
+    
+}
+
+h2 {
+    
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+
+/* unvisited link */
+a:link {
+  color: #1F83ED;
+}
+
+/* visited link */
+a:visited {
+  color: #800080;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #800080;
+}
+
+li a {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.contact-box {
+    border: 3px solid #333; /* Applies a 3px solid dark gray border */
+    padding: 20px;          /* Adds space between content and border */
+    margin: 0px;           /* Adds space between the container and other elements on the page */
+    border-radius: 8px;     /* Optional: adds rounded corners */
+    background-color: rgb(117 190 218 / 50%); /* 50% transparent */
+}
+
